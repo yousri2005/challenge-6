@@ -13,7 +13,7 @@ input()
 import time
 import random
 
-words = ['computer', 'house', 'bird', 'fish','chair','lion','elephant','bottle','pizza','phone','schoenen']
+words = ['computer', 'house', 'bird', 'fish','chair','lion','elephant','bottle','pizza','phone','schoenen','boom','brazil','girlfriend','teacher','glacces','music','train','airplane','juice','apple','banana']
 random_words = random.sample(words, 5)
 print(random_words)
 
@@ -27,17 +27,11 @@ while countdown_time:
     print(timer, end="\r")
     time.sleep(1)
     countdown_time -= 1
-    # guess = "piet"
-    # # guess = input("Enter your guess: ")
-    # if guess == "animal":
-    #         print("correct")
-    #         break
-    # else:
-    #         print("incorrect")
-    #         # break 
-        
-print ("klaar")
-
-import winsound
-
-winsound.PlaySound('sound_file.wav', winsound.SND_FILENAME)
+    
+       
+print ("youre score=")
+print("1 good word=5 points")
+print("2 good words=10 points")
+print("3 good words=15 points")
+print("4 good words=20 points")
+print("5 good words=50 points")
